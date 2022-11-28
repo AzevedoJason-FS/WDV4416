@@ -1,0 +1,20 @@
+{
+  "name": "1.4-unittesting",
+  "version": "1.0.0",
+  "description": "NodeJS TDD Testing Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Jest",
+    "Testing",
+    "TDD"
+  ],
+  "author": "Jason Azevedo",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
