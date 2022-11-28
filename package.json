@@ -4,7 +4,7 @@
   "description": "NodeJS TDD Testing Assignment",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest"
   },
   "keywords": [
     "NodeJS",
