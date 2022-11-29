@@ -13,7 +13,10 @@ describe("Total Module Test", () => {
     test("As a user I want to be able to get last 4digits of card obscured", () => {
         expect(hideCard("1111111111334344")).toEqual('************4344')
     });
-    test("As a user I expect an error for invalid credit card number", () => {
+    test("As a user I expect an error for invalid credit card number (19chars)", () => {
         expect(hideCard("1234567891012121212")).toEqual('Invalid Credit Card')
-    })
+    });
+    test("As a user I expect an error for invalid credit card number (10chars)", () => {
+        expect(hideCard("1234567899")).toEqual('Invalid Credit Card')
+    });
 })
